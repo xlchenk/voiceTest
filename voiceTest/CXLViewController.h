@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CXLViewController.h
 //  voiceTest
 //
 //  Created by issuser on 16/4/29.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CXLViewController : UIViewController
 
 @end
-

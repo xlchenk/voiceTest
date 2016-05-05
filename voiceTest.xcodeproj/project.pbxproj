@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		517427D63375523228CA5E08 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 083FAB7798B7154F03317B4A /* libPods.a */; };
+		65F13E521CD8892D00EB5012 /* VoiceScorllView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F13E511CD8892C00EB5012 /* VoiceScorllView.m */; };
+		65F372B91CD3A024009CB369 /* LVRecordTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F372B81CD3A024009CB369 /* LVRecordTool.m */; };
 		65F95A7A1CD3316000279A22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F95A791CD3316000279A22 /* main.m */; };
 		65F95A7D1CD3316000279A22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F95A7C1CD3316000279A22 /* AppDelegate.m */; };
-		65F95A801CD3316000279A22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F95A7F1CD3316000279A22 /* ViewController.m */; };
 		65F95A831CD3316000279A22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F95A811CD3316000279A22 /* Main.storyboard */; };
 		65F95A851CD3316000279A22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65F95A841CD3316000279A22 /* Assets.xcassets */; };
 		65F95A881CD3316000279A22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F95A861CD3316000279A22 /* LaunchScreen.storyboard */; };
 		65F95A931CD3316000279A22 /* voiceTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F95A921CD3316000279A22 /* voiceTestTests.m */; };
 		65F95A9E1CD3316000279A22 /* voiceTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F95A9D1CD3316000279A22 /* voiceTestUITests.m */; };
+		65F95AAD1CD331A200279A22 /* CXLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F95AAC1CD331A200279A22 /* CXLViewController.m */; };
+		65F95AFC1CD33F1500279A22 /* PopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F95AFB1CD33F1500279A22 /* PopView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		083FAB7798B7154F03317B4A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E56B6E33F65146E77680F3A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		65F13E501CD8892C00EB5012 /* VoiceScorllView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceScorllView.h; sourceTree = "<group>"; };
+		65F13E511CD8892C00EB5012 /* VoiceScorllView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceScorllView.m; sourceTree = "<group>"; };
+		65F372B71CD3A024009CB369 /* LVRecordTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LVRecordTool.h; path = voiceTool/LVRecordTool.h; sourceTree = "<group>"; };
+		65F372B81CD3A024009CB369 /* LVRecordTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LVRecordTool.m; path = voiceTool/LVRecordTool.m; sourceTree = "<group>"; };
 		65F95A751CD3316000279A22 /* voiceTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = voiceTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F95A791CD3316000279A22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		65F95A7B1CD3316000279A22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65F95A7C1CD3316000279A22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		65F95A7E1CD3316000279A22 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		65F95A7F1CD3316000279A22 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		65F95A821CD3316000279A22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65F95A841CD3316000279A22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65F95A871CD3316000279A22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +59,11 @@
 		65F95A991CD3316000279A22 /* voiceTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = voiceTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F95A9D1CD3316000279A22 /* voiceTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = voiceTestUITests.m; sourceTree = "<group>"; };
 		65F95A9F1CD3316000279A22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65F95AAB1CD331A200279A22 /* CXLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXLViewController.h; sourceTree = "<group>"; };
+		65F95AAC1CD331A200279A22 /* CXLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXLViewController.m; sourceTree = "<group>"; };
+		65F95AFA1CD33F1500279A22 /* PopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopView.h; sourceTree = "<group>"; };
+		65F95AFB1CD33F1500279A22 /* PopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopView.m; sourceTree = "<group>"; };
+		CA4ECFAE5BB0E295FC3A7728 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				517427D63375523228CA5E08 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +92,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65F372B61CD39FD9009CB369 /* VoiceTool */ = {
+			isa = PBXGroup;
+			children = (
+				65F372B71CD3A024009CB369 /* LVRecordTool.h */,
+				65F372B81CD3A024009CB369 /* LVRecordTool.m */,
+			);
+			name = VoiceTool;
+			sourceTree = "<group>";
+		};
 		65F95A6C1CD3316000279A22 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +108,8 @@
 				65F95A911CD3316000279A22 /* voiceTestTests */,
 				65F95A9C1CD3316000279A22 /* voiceTestUITests */,
 				65F95A761CD3316000279A22 /* Products */,
+				70EEE1B2A9924A6FC5F759BD /* Pods */,
+				EAFAFB2BE3DB4B5598DF2024 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +126,15 @@
 		65F95A771CD3316000279A22 /* voiceTest */ = {
 			isa = PBXGroup;
 			children = (
+				65F372B61CD39FD9009CB369 /* VoiceTool */,
 				65F95A7B1CD3316000279A22 /* AppDelegate.h */,
 				65F95A7C1CD3316000279A22 /* AppDelegate.m */,
-				65F95A7E1CD3316000279A22 /* ViewController.h */,
-				65F95A7F1CD3316000279A22 /* ViewController.m */,
+				65F95AAB1CD331A200279A22 /* CXLViewController.h */,
+				65F95AAC1CD331A200279A22 /* CXLViewController.m */,
+				65F95AFA1CD33F1500279A22 /* PopView.h */,
+				65F95AFB1CD33F1500279A22 /* PopView.m */,
+				65F13E501CD8892C00EB5012 /* VoiceScorllView.h */,
+				65F13E511CD8892C00EB5012 /* VoiceScorllView.m */,
 				65F95A811CD3316000279A22 /* Main.storyboard */,
 				65F95A841CD3316000279A22 /* Assets.xcassets */,
 				65F95A861CD3316000279A22 /* LaunchScreen.storyboard */,
@@ -140,6 +170,23 @@
 			path = voiceTestUITests;
 			sourceTree = "<group>";
 		};
+		70EEE1B2A9924A6FC5F759BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E56B6E33F65146E77680F3A /* Pods.debug.xcconfig */,
+				CA4ECFAE5BB0E295FC3A7728 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EAFAFB2BE3DB4B5598DF2024 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				083FAB7798B7154F03317B4A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65F95AA21CD3316000279A22 /* Build configuration list for PBXNativeTarget "voiceTest" */;
 			buildPhases = (
+				24A73B8BE6131F28324DF9DE /* Check Pods Manifest.lock */,
 				65F95A711CD3316000279A22 /* Sources */,
 				65F95A721CD3316000279A22 /* Frameworks */,
 				65F95A731CD3316000279A22 /* Resources */,
+				29AFF93EB445B59AE408F6A2 /* Embed Pods Frameworks */,
+				617F484DAF8E9F79CA8B7180 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,14 +315,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24A73B8BE6131F28324DF9DE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		29AFF93EB445B59AE408F6A2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		617F484DAF8E9F79CA8B7180 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		65F95A711CD3316000279A22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65F95A801CD3316000279A22 /* ViewController.m in Sources */,
+				65F95AAD1CD331A200279A22 /* CXLViewController.m in Sources */,
 				65F95A7D1CD3316000279A22 /* AppDelegate.m in Sources */,
+				65F13E521CD8892D00EB5012 /* VoiceScorllView.m in Sources */,
+				65F95AFC1CD33F1500279A22 /* PopView.m in Sources */,
 				65F95A7A1CD3316000279A22 /* main.m in Sources */,
+				65F372B91CD3A024009CB369 /* LVRecordTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,9 +510,11 @@
 		};
 		65F95AA31CD3316000279A22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E56B6E33F65146E77680F3A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = voiceTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = isorftstone.voiceTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -420,9 +523,11 @@
 		};
 		65F95AA41CD3316000279A22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA4ECFAE5BB0E295FC3A7728 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = voiceTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = isorftstone.voiceTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +601,7 @@
 				65F95AA41CD3316000279A22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65F95AA51CD3316000279A22 /* Build configuration list for PBXNativeTarget "voiceTestTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +610,7 @@
 				65F95AA71CD3316000279A22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65F95AA81CD3316000279A22 /* Build configuration list for PBXNativeTarget "voiceTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +619,7 @@
 				65F95AAA1CD3316000279A22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

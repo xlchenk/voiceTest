@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "CXLViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    CXLViewController * VC = [[CXLViewController  alloc]init];
+    UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:VC];
+    self.window.rootViewController = nav;
     return YES;
 }
 
