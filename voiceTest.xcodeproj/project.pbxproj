@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		517427D63375523228CA5E08 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 083FAB7798B7154F03317B4A /* libPods.a */; };
-		65F13E521CD8892D00EB5012 /* VoiceScorllView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F13E511CD8892C00EB5012 /* VoiceScorllView.m */; };
 		65F372B91CD3A024009CB369 /* LVRecordTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F372B81CD3A024009CB369 /* LVRecordTool.m */; };
 		65F95A7A1CD3316000279A22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F95A791CD3316000279A22 /* main.m */; };
 		65F95A7D1CD3316000279A22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F95A7C1CD3316000279A22 /* AppDelegate.m */; };
@@ -41,8 +40,6 @@
 /* Begin PBXFileReference section */
 		083FAB7798B7154F03317B4A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E56B6E33F65146E77680F3A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		65F13E501CD8892C00EB5012 /* VoiceScorllView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceScorllView.h; sourceTree = "<group>"; };
-		65F13E511CD8892C00EB5012 /* VoiceScorllView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceScorllView.m; sourceTree = "<group>"; };
 		65F372B71CD3A024009CB369 /* LVRecordTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LVRecordTool.h; path = voiceTool/LVRecordTool.h; sourceTree = "<group>"; };
 		65F372B81CD3A024009CB369 /* LVRecordTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LVRecordTool.m; path = voiceTool/LVRecordTool.m; sourceTree = "<group>"; };
 		65F95A751CD3316000279A22 /* voiceTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = voiceTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +92,8 @@
 		65F372B61CD39FD9009CB369 /* VoiceTool */ = {
 			isa = PBXGroup;
 			children = (
+				65F95AFA1CD33F1500279A22 /* PopView.h */,
+				65F95AFB1CD33F1500279A22 /* PopView.m */,
 				65F372B71CD3A024009CB369 /* LVRecordTool.h */,
 				65F372B81CD3A024009CB369 /* LVRecordTool.m */,
 			);
@@ -131,10 +130,6 @@
 				65F95A7C1CD3316000279A22 /* AppDelegate.m */,
 				65F95AAB1CD331A200279A22 /* CXLViewController.h */,
 				65F95AAC1CD331A200279A22 /* CXLViewController.m */,
-				65F95AFA1CD33F1500279A22 /* PopView.h */,
-				65F95AFB1CD33F1500279A22 /* PopView.m */,
-				65F13E501CD8892C00EB5012 /* VoiceScorllView.h */,
-				65F13E511CD8892C00EB5012 /* VoiceScorllView.m */,
 				65F95A811CD3316000279A22 /* Main.storyboard */,
 				65F95A841CD3316000279A22 /* Assets.xcassets */,
 				65F95A861CD3316000279A22 /* LaunchScreen.storyboard */,
@@ -370,7 +365,6 @@
 			files = (
 				65F95AAD1CD331A200279A22 /* CXLViewController.m in Sources */,
 				65F95A7D1CD3316000279A22 /* AppDelegate.m in Sources */,
-				65F13E521CD8892D00EB5012 /* VoiceScorllView.m in Sources */,
 				65F95AFC1CD33F1500279A22 /* PopView.m in Sources */,
 				65F95A7A1CD3316000279A22 /* main.m in Sources */,
 				65F372B91CD3A024009CB369 /* LVRecordTool.m in Sources */,
