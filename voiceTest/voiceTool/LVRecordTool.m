@@ -30,9 +30,7 @@
 - (void)startRecording {
     // 录音时停止播放 删除曾经生成的文件
     [self stopPlaying];
-    [self destructionRecordingFile];
-    
-    // 真机环境下需要的代码
+    //[self destructionRecordingFile];
     AVAudioSession *session = [AVAudioSession sharedInstance];
     NSError *sessionError;
     [session setCategory:AVAudioSessionCategoryPlayAndRecord error:&sessionError];
@@ -103,7 +101,10 @@
     return self.filePath;
 }
 
-
+//获取文件url
+- (NSURL *)getURLOfRecorder{
+    return self.recordFileUrl;
+}
 
 - (void)stopPlaying {
     [self.player stop];

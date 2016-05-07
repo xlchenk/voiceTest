@@ -45,7 +45,8 @@
 @property (nonatomic, strong) AVAudioRecorder *recorder;
 /** 播放器对象 */
 @property (nonatomic, strong) AVAudioPlayer *player;
-
+//** 存放录音文件数组  */
+@property (nonatomic,strong)NSMutableArray * dataArray;
 /** 更新图片的代理 */
 @property (nonatomic, assign) id<LVRecordToolDelegate> delegate;
 
