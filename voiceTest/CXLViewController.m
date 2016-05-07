@@ -98,7 +98,6 @@ UIAlertViewDelegate>
 - (void)handleLongPressGestures:(UILongPressGestureRecognizer *)longPress{
     if ([longPress state] == UIGestureRecognizerStateBegan) {
         _alert = [[UIAlertView alloc]initWithTitle:@"提示" message:@"您是否要删除此附件？" delegate:self cancelButtonTitle:@"确定" otherButtonTitles:@"取消", nil];
-        
         [_alert show];
     }
 }
