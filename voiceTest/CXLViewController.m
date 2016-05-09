@@ -60,7 +60,6 @@ UIAlertViewDelegate>
     
     CGRect voiceRect = CGRectMake(_textView.frame.origin.x, CGRectGetMaxY(_textView.frame)+5, _textView.frame.size.width, 40);
     _voiceView = [[UIView  alloc]initWithFrame:voiceRect];
-    //_voiceScorllView.delegate = self;
     //_voiceView.backgroundColor = [UIColor orangeColor];
     NSLog(@"%@", NSStringFromCGRect(_voiceView.frame));
    
@@ -87,12 +86,10 @@ UIAlertViewDelegate>
     [_VOCBtn setBackgroundImage:[UIImage imageNamed:@"voc"] forState:UIControlStateNormal];
     [_VOCBtn addTarget:self action:@selector(popAction:) forControlEvents:UIControlEventTouchUpInside];
     _voiceView.hidden = YES;
-    
     [backView addSubview:_VOCBtn];
-    
+
     self.recordTool = [LVRecordTool sharedRecordTool];
     self.recordTool.delegate = self;
-
 }
 /**@param sender */
 - (void)handleLongPressGestures:(UILongPressGestureRecognizer *)longPress{
