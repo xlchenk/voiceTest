@@ -60,7 +60,6 @@ UIAlertViewDelegate>
     
     CGRect voiceRect = CGRectMake(_textView.frame.origin.x, CGRectGetMaxY(_textView.frame)+5, _textView.frame.size.width, 40);
     _voiceView = [[UIView  alloc]initWithFrame:voiceRect];
-    //_voiceView.backgroundColor = [UIColor orangeColor];
     NSLog(@"%@", NSStringFromCGRect(_voiceView.frame));
    
    _imageV1 = [[UIImageView alloc]initWithFrame:CGRectMake(15,0, 40, 40)];
