@@ -124,7 +124,6 @@ UIAlertViewDelegate>
 }
 -(void)timeFlow:(NSTimer *)timer{
    // timeSecond = second;
-    
     timeSecond--;
     NSString *count=[NSString stringWithFormat:@"%d''",timeSecond];
     _timelb.text = count;

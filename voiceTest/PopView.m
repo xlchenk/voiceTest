@@ -111,8 +111,6 @@
      
 }
 
-
-
 #pragma 开始录音
 - (void)startRecordVoice:(UIButton *)button{
     if (_isRec) {
