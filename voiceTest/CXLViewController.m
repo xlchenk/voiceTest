@@ -19,7 +19,6 @@ UITextViewDelegate,
 LVRecordToolDelegate,
 VOCLDelegate,
 UIAlertViewDelegate>
-//@property (nonatomic,strong)VoiceScorllView * voiceScorllView;
 @property (nonatomic,strong)UIView * voiceView;
 @property (nonatomic,strong)UIImageView * imv;
 @property (nonatomic,strong)UIImageView * imageView;
@@ -46,8 +45,6 @@ UIAlertViewDelegate>
     
     [self createUI];
     [self initModelView];
-    
-    
 }
 - (void)createUI{
     self.automaticallyAdjustsScrollViewInsets = NO;
@@ -156,7 +153,6 @@ UIAlertViewDelegate>
 #pragma popViewdelegate
 /**
  *  完成录音后
- *
  *  @param sender 录音时间
  */
 - (void)displayViewVoice:(int)sender{
@@ -193,7 +189,6 @@ UIAlertViewDelegate>
     textView.textColor = RGBACOLOR(243,242,242,1);
     NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
     paragraphStyle.lineSpacing = 10;// 字体的行间距
-    
     NSDictionary *attributes = @{
                                  NSFontAttributeName:[UIFont systemFontOfSize:15],
                                  NSParagraphStyleAttributeName:paragraphStyle
